@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.board {
+    width: 512px;
+    height: 512px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cell {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.black {
+    background-color: deepskyblue;
+}
+
+.white {
+    background-color: rgb(255, 176, 30);
+}
+
+.cell img {
+    width: 52px;
+    height: 52px;
+    position: relative;
+}
+
+.selected {
+    background-color: brown;
+
+}
+
+.available {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: rgb(16, 112, 16);
+}
+
+.lost {
+    height: 40vh;
+    padding: 30px;
+    margin-left: 50px;
+    background-color: lightgray;
+}
